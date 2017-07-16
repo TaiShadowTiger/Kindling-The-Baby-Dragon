@@ -9,8 +9,9 @@ var Bot = require('dragon-bot'); var bot = new Bot({    email: <Tia
 bot.connect(?);
 .on (bot . trigger .react, / I'm back [name] /)    .do(function(args) { /* <- dragon comes out to greet you*/        console.log(args.message);
 .on (bot . trigger .react, / feed /)    .do(function(args) { /* <- dragon nibbles the food from your hand*/        console.log(args.message);
-.on (bot . trigger .react, / Pet /)    .do(function(args) { /* <- dragon rubs up against you and roars happily */        console.log(args.message);
+.on (bot . trigger .react, / Pet /)    .do(function(args) { /* <- dragon rubs up against you and smiles contently */        console.log(args.message);
 .on (bot . trigger .react, / ride /)    .do(function(args) { /* <- you and your dragon soar through the clouds*/        console.log(args.message);
 .on (bot . trigger .react, / bath time [name] /)    .do(function(args) { /* <- dragon looks for a place to hide*/        console.log(args.message);
 .on (bot . trigger .react, / scale shining /)    .do(function(args) { /* <- dragon scales glimmer in the light*/        console.log(args.message); 
 .on (bot . trigger .react, / Im' sad  [name] /)    .do(function(args) { /* <- dragon comes over to confort you and wonders why your upset */        console.log(args.message);
+.on (bot . trigger .react, / good [name] /)    .do(function(args) { /* <- dragon is happy he pleased you */        console.log(args.message);
