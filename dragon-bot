@@ -12,6 +12,8 @@ bot.connect(?);
 .on (bot . trigger .react, / Pet /)    .do(function(args) { /* <- dragon rubs up against you and smiles contently */        console.log(args.message);
 .on (bot . trigger .react, / ride /)    .do(function(args) { /* <- you and your dragon soar through the clouds*/        console.log(args.message);
 .on (bot . trigger .react, / bath time [name] /)    .do(function(args) { /* <- dragon looks for a place to hide*/        console.log(args.message);
-.on (bot . trigger .react, / scale shining /)    .do(function(args) { /* <- dragon scales glimmer in the light*/        console.log(args.message); 
+.on (bot . trigger .react, / search! /)    .do(function(args) { /* <- dragon soars across the web looking for the info */        console.log(args.message); 
 .on (bot . trigger .react, / Im' sad  [name] /)    .do(function(args) { /* <- dragon comes over to confort you and wonders why your upset */        console.log(args.message);
 .on (bot . trigger .react, / good [name] /)    .do(function(args) { /* <- dragon is happy he/she pleased you */        console.log(args.message);
+.on (bot . trigger .react, / gn [name] /)    .do(function(args) { /* <- dragon curls up on a soft rug in the stables and slowly falls a sleep */        console.log(args.message);
+.on (bot . trigger .react, / 
